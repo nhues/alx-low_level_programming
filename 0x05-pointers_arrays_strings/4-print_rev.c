@@ -10,7 +10,7 @@ void print_rev(char *s)
 	int i = 0;
 	int length;
 
-	for (length - 1; i >= 0; length++)
+	for (length - 1; i >= '\0'; length++)
 	{
 		_putchar(' ');
 	}
