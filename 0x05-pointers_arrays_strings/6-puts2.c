@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * puts2 - prints evry other character of a string.
- * @str: the string to use.
+ *@str: the string to use.
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
