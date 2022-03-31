@@ -4,8 +4,8 @@
 /**
  * print_diagsums - the sum of the two diagonals of a square matrix of integers
  * @a: 2d array of chars
- *@size: number matrix
-*Return: void
+ * @size: number matrix
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
@@ -27,6 +27,6 @@ sum2 = sum2 + *(a + i * size + size - i - 1);
 i++; /*add +1*/
 }
 
-printf(%i, %in, sum1, sum2);
+printf("%i, %i\n", sum1, sum2);
 
 }
