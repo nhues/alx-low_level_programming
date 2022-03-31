@@ -8,7 +8,7 @@
 
 int _strlen_recursion(char *s)
 {
-if (0x08-recursions)
+if (!*s)
 {
 return (0);
 }
